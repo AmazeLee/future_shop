@@ -1,0 +1,162 @@
+.user-order{
+	float: left;
+	margin-left: 18px;
+}
+.user-order .order-status{
+	width:980px;
+	height:40px;
+	border-bottom:4px solid #dfdfdf;
+}
+.user-order .order-status li{
+	text-align: center;
+	line-height: 40px;
+	height:40px;
+	margin-right: 50px;
+	width:110px;
+	float: left;
+	
+}
+.user-order .order-status .active{
+	border-bottom: 4px solid #bc9a5b;
+}
+.user-order .search{
+	height:67px;
+	margin-top: 16px;
+	width:948px;
+	line-height: 67px;
+	border:1px solid #999;
+	font-size: 14px;
+	padding-left: 30px;
+}
+.user-order .search .txt{
+	width:163px;
+	outline: none;
+	height: 23px;
+}
+.user-order .search .txt1{
+	width:71px;
+	outline: none;
+	height: 23px;
+}
+.user-order .search .ser{
+	width:48px;
+	height:25px;
+	background: #81511c;
+	border: none;
+	color: #fff;
+	margin-left: 10px;
+}
+.user-order .cart-form{
+	height:81px;
+	width:978px;
+	border:1px solid #999;
+	border-top:none
+}
+.user-order .pay{
+	float: left;
+	width:73px;
+	text-align: center;
+	margin-left: 167px;
+}
+.user-order .cart-tit{
+	margin-top: 20px;
+	width:978px;
+	border:1px solid #999;
+	height: 42px;
+	line-height: 42px;
+	background: #dfdfdf;
+}
+.user-order .cart-tit .tit-meg{
+	float: left;
+	margin-left: 30px;
+	margin-right: 100px;
+}
+.user-order .cart-tit .tit-person{
+	float: left;
+	margin-right: 100px;
+}
+.user-order .cart-tit .tit-time{
+	float: left;
+}
+#user-warpper .user-inner  .cart-form  .msg{
+	float: left;
+	margin-left: 20px;
+	width:318px;
+	height:81px;
+}
+#user-warpper .user-inner  .cart-form  .msg img{
+	float: left;
+	margin-top: 10px;
+	height:60px;
+	width:60px;
+}
+#user-warpper .user-inner  .cart-form  .msg .msg-right{
+	float: left;
+	height:57px;
+	width:244px;
+	margin-left: 14px;
+}
+#user-warpper .user-inner  .cart-form .pay a{
+	color: #000066;
+	font-size:12px;
+}
+#user-warpper .user-inner  .cart-form .pay .payorder{
+	display: block;
+	background: #bc9a5b;
+	margin-top: 23px;
+	width:73px;
+	color: #fff;
+	height: 25px;
+	font-size:14px;
+	line-height: 25px;
+	text-align: center;
+}
+#user-warpper .user-inner  .cart-form #del{
+	color: #bc9a5b;
+	font-size:14px;
+}
+#jump{
+	margin-top:20px;
+	text-align: center;
+	line-height: 22px;
+}
+ #jump .last{
+	display: inline-block;
+	width:50px;
+	height:22px;
+	line-height: 22px;
+	border:1px solid #999;
+}
+ #jump a{
+	display: inline-block;
+	width:22px;
+	height:22px;
+	line-height: 22px;
+	border:1px solid #999;
+	color:#000
+}
+ #jump a:hover{
+	background: #eb6100;
+	color:#fff;
+	border:1px solid #eb6100;
+}
+ #jump .next{
+	display: inline-block;
+	width:50px;
+	height:22px;
+	line-height: 22px;
+	border:1px solid #999;
+}
+ #jump .confirm{
+	display: inline-block;
+	width:50px;
+	height:22px;
+	line-height: 22px;
+	border:1px solid #999;
+}
+ #jump .page{
+ 	display: inline-block;
+	width:50px;
+	height:25px;
+	border:1px solid #999;
+}

@@ -1,0 +1,695 @@
+#crumbs-warpper{
+	width:100%;
+	margin:0 auto;
+}
+#crumbs-warpper .crumbs-inner{
+	width:1200px;
+	margin: 0 auto;
+	height:52px;
+	line-height: 52px;
+	font-size:12px;
+	color:#666;
+}
+#crumbs-warpper .crumbs-inner a{
+	color:#666;
+}
+#key-warpper{
+	width:100%;
+	margin:0 auto;
+}
+#key-warpper .key-inner{
+	width:1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#key-warpper .key-inner .gallery{
+	position: relative;
+	float: left;
+	width:410px;
+	z-index: 10;
+	margin-right: 40px;
+}
+.small-box {
+      position: relative;
+      width: 409px;
+      height: 409px;
+      margin-bottom: 20px;
+      border-top: 1px solid #e6e6e6;
+      border-bottom: 1px solid #e6e6e6;
+    }
+    .small-box img {
+      display: block;
+      width: 409px;
+      height: 409px;
+      overflow: hidden;
+      border: none;
+    }
+    .small-box .hover {
+      display: none;
+      position: absolute;
+      left: 140px;
+      top: 160px;
+      width:200px;
+      height: 200px;
+      border: 1px solid #aaa;
+      background: #fff;
+      opacity: .5;
+      filter: alpha(opacity: 50);
+      cursor: move;
+    }
+    .thumbnail-box {
+      position: relative;
+      width: 100%;
+    }
+    .thumbnail-box .btn {
+    	
+      cursor: pointer;
+      width: 10px;
+      height: 15px;
+      display: block;
+      margin-top: 22px;
+    }
+    .thumbnail-box .list {
+      overflow: hidden;
+      margin-left: 20px;
+      width:370px;
+      height:60px;
+      position: relative;
+      float: left;
+    }
+    .thumbnail-box .wrapper {
+    	position: absolute;
+    	left: 0;
+      width: 100000px;
+      height:60px;
+    }
+    .thumbnail-box .list li{
+      float: left;
+      margin-right: 16px;
+      text-align: center;
+      width:58px;
+      height:58px;
+      border:1px solid #999;
+    }
+    .thumbnail-box .list li img {
+    	opacity: .5;
+      filter: alpha(opacity: 50);
+       width:58px;
+      height:58px;
+    }
+    .thumbnail-box .list .item-cur img {
+    	opacity: 1;
+      filter: alpha(opacity: 100);
+       width:58px;
+      height:58px;
+    }
+    .share{
+    	float: left;
+    	margin-top: 20px;
+    	color: #adadad;
+    }
+    
+    .big-box {
+      display: none;
+      overflow: hidden;
+      position: absolute;
+      left: 400px;
+      top: 0;
+      width: 398px;
+      height: 398px;
+      border: 1px solid #e4e4e4;
+    }
+    .big-box img {
+    	position: absolute;
+      display: block;
+      width: 800px;
+      height: 800px;
+    }
+#key-warpper .key-inner .parameter{
+	float: left;
+	position: relative;
+	width:456px;
+	z-index: 8;
+}
+#key-warpper .key-inner .parameter .title{
+	margin-bottom: 12px;
+	width:432px;
+	color:#666;
+	font-size:18px;
+	line-height: 24px;
+}
+#key-warpper .key-inner .parameter .decription{
+	margin-bottom: 14px;
+	color: #bc9a5b;
+	font-size:14px;
+}
+#key-warpper .key-inner .parameter .price-box{
+	font-size:12px;
+	color: #666;
+	position: relative;
+	padding:17px 0px 17px 10px;
+	margin-bottom: 8px;
+	background-color: #eee;
+}
+#key-warpper .key-inner .parameter .price-box ul .mb .price-label{
+	margin-top: 15px;
+	width:70px;
+	font-size:12px;
+}
+#key-warpper .key-inner .parameter .price-box ul .mb .price{
+	width:70px;
+	font-size:19px;
+	margin-right: 7px;
+	text-decoration: none;
+	color: #ef0000;
+}
+#key-warpper .key-inner .parameter .price-box ul .mb .price i{
+	font-size:18px;
+	margin-top: 8px;
+	font-style: normal;
+	display: inline-block;
+}
+#key-warpper .key-inner .parameter .price-box ul .price{
+	margin-left:23px;
+	color: #000;
+	text-decoration: line-through;
+}
+#key-warpper .key-inner .parameter .price-box ul .price i{
+	font-style: normal;
+}
+#key-warpper .key-inner .parameter .price-box ul li .label{
+	width:70px;
+	font-size:12px;
+}
+#key-warpper .key-inner .parameter .height{
+	margin-left: 10px;
+	height:14px;
+	color:#666;
+	font-size:12px;
+	line-height:14px;
+}
+#key-warpper .key-inner .parameter .height .nheight{
+	color: #000;
+	margin-left: 23px;
+}
+#key-warpper .key-inner .parameter .trasition{
+	width:432px;
+	margin-top: 20px;
+	margin-left: 10px;
+	height:17px;
+	color:#666;
+	font-size:12px;
+	line-height:17px;
+}
+#key-warpper .key-inner .parameter .trasition .traslate{
+	display: block;
+	width:52px;
+	float: left;
+	color:#666;
+	font-size:12px;
+	margin-left: 0px;
+}
+#key-warpper .key-inner .parameter .trasition span{
+	float: left;
+	display: block;
+	width:120px;
+	height:15px;
+	margin-left: 23px;
+	color:#000;
+	font-size:11px;
+}
+#key-warpper .key-inner .parameter .trasition .promise{
+	margin-left: 5px;
+	float: left;
+	display: block;
+	width:33px;
+	height:17px;
+	line-height: 17px;
+	text-align: center;
+	color: #fff;
+	background:#eb6100;
+}
+#key-warpper .key-inner .parameter .trasition span i{
+	width:9px;
+	height:5px;
+	display: inline-block;
+	background: url(../images/detail/detail_03.jpg) no-repeat;
+}
+#key-warpper .key-inner .parameter .color{
+	margin-top: 13px;
+	margin-left: 10px;
+	height:35px;
+	line-height: 35px;
+}
+#key-warpper .key-inner .parameter .color span{
+	float: left;
+	color:#666;
+	font-size:12px;
+}
+#key-warpper .key-inner .parameter .color ul{
+	float: left;
+	margin-left: 23px;
+}
+#key-warpper .key-inner .parameter .color ul li{
+	cursor: pointer;
+	float: left;
+	display: block;
+	width:32px;
+	height:33px;
+	border:1px solid #999;
+	margin-right: 10px;
+}
+#key-warpper .key-inner .parameter .color ul li img{
+	margin-top: -7px;
+	width:32px;
+	height:32px;
+}
+#key-warpper .key-inner .parameter .color ul li:hover{
+	border:1px solid #eb6100;
+}
+#key-warpper .key-inner .parameter .size{
+	height:22px;
+	line-height: 22px;
+	margin-top:7px;
+	margin-left:10px;
+}
+#key-warpper .key-inner .parameter .size span{
+	float: left;
+	color:#666;
+	font-size:12px;
+}
+#key-warpper .key-inner .parameter .size ul{
+	float: left;
+	margin-left: 23px;
+}
+#key-warpper .key-inner .parameter .size ul li{
+	cursor: pointer;
+	float: left;
+	height:22px;
+	width:51px;
+	line-height: 22px;
+	text-align: center;
+	font-size:12px;
+	color:#000;
+	border:1px solid #999;
+	margin-right: 10px;
+}
+#key-warpper .key-inner .parameter .choice-buy{
+	height:22px;
+	line-height: 22px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	margin-top: 14px;
+}
+#key-warpper .key-inner .parameter .choice-buy .number{
+	width:446px;
+	height:22px;
+	margin-bottom: 15px;
+	font-size:12px;
+	color:#666;
+	line-height: 22px;
+}
+#key-warpper .key-inner .parameter .choice-buy .number .ch{
+	float: left;
+}
+#key-warpper .key-inner .parameter .choice-buy .number .nbox{
+	float: left;
+	margin-left: 23px;
+	margin-right: 20px;
+	border:1px solid #ccc;
+	width:102px;
+	height:22px;
+	line-height: 22px;
+	display: block;
+}
+#key-warpper .key-inner .parameter .choice-buy .number .lastnum{
+	float: left;
+	height:22px;
+	display: inline-block;
+	line-height: 22px;
+}
+#key-warpper .key-inner .parameter .choice-buy .number .nbox #lessbtn{
+	display: block;
+	float: left;
+	width:21px;
+	height:22px;
+	text-align: center;
+	color: #999;
+	background-color:#f2f2f2 ;
+	cursor: not-allowed;
+}
+#key-warpper .key-inner .parameter .choice-buy .number .nbox #addbtn{
+	display: block;
+	float: left;
+	width:25px;
+	height:22px;
+	text-align: center;
+	background:#fff;	
+}
+#key-warpper .key-inner .parameter .choice-buy .number .l{
+	border-top:none;
+	border-bottom:none;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	width:54px;
+	height:20px;
+	line-height: 20px;
+	font-family: inherit;
+	font-style: inherit;
+	text-align: center;
+	color:#222;
+	display: block;
+	float: left;
+}
+#key-warpper .key-inner .parameter .just-buy{
+	position: relative;
+	margin-left: 10px;
+}
+#key-warpper .key-inner .parameter .just-buy .just{
+	float: left;
+	display: block;
+	position: relative;
+	border:1px solid #eb6100;
+	color: #eb6100;
+	width:148px;
+	height:30px;
+	line-height: 30px;
+	font-size:18px;
+	background-color: #eee;
+	border-radius: 2px;
+	cursor: pointer;
+	text-align: center;
+	margin-right: 20px;
+}
+#key-warpper .key-inner .parameter .just-buy .addcart{
+	float: left;
+	display: block;
+	position: relative;
+	border:none;
+	color: #fff;
+	width:113px;
+	height:32px;
+	padding-left: 37px;
+	line-height: 32px;
+	font-size:18px;
+	background-color: #eb6100;
+	border-radius: 2px;
+	cursor: pointer;
+	text-align: center;
+}
+#key-warpper .key-inner .parameter .just-buy .addcart i{
+	position: absolute;
+	display: block;
+	width:18px;
+	height: 14px;
+	top:10px;
+	left:15px;
+	background: url(../images/detail/cart_03.gif) no-repeat;
+}
+#key-warpper .key-inner .store{
+	float: right;
+	width:258px;
+	height:407px;
+	border:1px solid #999999;
+	padding: 19px 0px 0px 15px;
+}
+#key-warpper .key-inner .store h1{
+	font-size:17px;
+}
+#key-warpper .key-inner .store .logo{
+	overflow: hidden;
+	margin-top: 12px;
+}
+#key-warpper .key-inner .store .logo img {
+	border:1px solid #bfbfbf;
+	float: left;
+}
+#key-warpper .key-inner .store .logo dl{
+	margin-left: 10px;
+	margin-top: 0px;
+	float: left;
+	margin-bottom: 0px;
+}
+#key-warpper .key-inner .store .logo dl dt{
+	color: #000;
+	font-size:12px;
+	line-height: 21px;
+}
+#key-warpper .key-inner .store .logo dl dd{
+	color: #666;
+	margin-left: 0px;
+	font-size:12px;
+	line-height: 21px;
+}
+#key-warpper .key-inner .store .logo dl dd span{
+	float: left;
+}
+#key-warpper .key-inner .store .logo dl dd i{
+	float: left;
+	width:13px;
+	height:12px;
+	display: block;
+	margin-top: 6px;
+	margin-left: 2px;
+	background:url(../images/detail/detail_09.gif) no-repeat
+}
+#key-warpper .key-inner .store .action{
+	margin-top: 20px;
+	width:223px;
+	border-bottom:1px solid #999;
+}
+#key-warpper .key-inner .store .action h2{
+	font-size:14px;
+}
+#key-warpper .key-inner .store .action ul{
+	overflow: hidden;
+	margin-top: 11px;
+	margin-bottom: 10px;
+}
+#key-warpper .key-inner .store .action ul li{
+	padding: 4px 3px;
+	float:left;
+	height:30px;
+	width:66px;
+	font-size:12px;
+	color:#666;
+	border-right:1px solid #999;
+}
+#key-warpper .key-inner .store .action ul .nor{
+	padding: 4px 3px;
+	float:left;
+	height:30px;
+	width:66px;
+	font-size:12px;
+	color:#666;
+	border-right:none;
+}
+#key-warpper .key-inner .store .action ul li span{
+	color:#000;
+	position: relative;
+	margin-left:8px;
+}
+#key-warpper .key-inner .store .action ul li .score{
+	margin-left:18px;
+}
+#key-warpper .key-inner .store .action ul li span i{
+	position: absolute;
+	top:4px;
+	left:20px;
+	display: block;
+	width:10px;
+	height:8px;
+	background:url(../images/detail/detail_14.gif) no-repeat;
+	float: left;
+}
+#key-warpper .key-inner .store .information{
+	margin-top:20px;
+	
+}
+#key-warpper .key-inner .store .information h3{
+	font-size:14px;
+		
+}
+#key-warpper .key-inner .store .information ul{
+	margin-top: 15px;
+}
+#key-warpper .key-inner .store .information ul li{
+	margin-bottom: 9px;
+	font-size:12px;
+	color:#666;
+}
+#good-warpper{
+	width:100%;
+	margin:50px auto;
+}
+#good-warpper .good-inner{
+	width:1200px;
+	margin: 50px auto;
+}
+#good-warpper .good-inner .recom{
+	width:190px;
+	float: left;
+	margin-right: 20px;
+}
+
+#good-warpper .good-inner .recom ul li{
+	width:188px;
+	height:286px;
+	border:1px solid #999;
+	margin-bottom: 21px;
+}
+
+/* 控制历史浏览图片大小 */
+#good-warpper .good-inner .recom img{
+	width:188px;
+	height:188px;
+}
+#good-warpper .good-inner .recom ul li .title{
+	background: #000;
+	width:188px;
+	height:30px;
+	color: #fff;
+	font-size:16px;
+	text-align: center;
+	margin-left: 0px;
+	line-height: 30px;
+}
+#good-warpper .good-inner .recom ul li span{
+	font-size:14px;
+	color:red;
+	margin-left: 9px;
+	
+}
+#good-warpper .good-inner .recom ul li p{
+	margin-left: 4px;
+	color: #666;
+	font-size:12px;
+	line-height: 21px;
+}
+#good-warpper .good-inner .sum .list-top{
+	float: left;
+	width:990px;
+	border-bottom: 1px solid #996c33;
+}
+#good-warpper .good-inner .sum .goods-detail{
+	float: left;
+	width:96px;
+	height:38px;
+	border:1px solid #996c33;
+	border-bottom: none;
+	line-height: 38px;
+	text-align: center;
+}
+#good-warpper .good-inner .sum .sum-recom{
+	float: left;
+	width:132px;
+	height:38px;
+	border:1px solid #999;
+	border-bottom: none;
+	border-left:none;
+	line-height: 38px;
+	text-align: center;
+}
+#good-warpper .good-inner .sum .detail{
+	width:988px;
+	float: right;
+}
+#good-warpper .good-inner .sum img{
+	float: left;
+	border:1px solid #999;
+	margin-top: 20px;
+	
+}
+#good-warpper .good-inner .sum .detail .detail-top{
+	padding-top: 24px;
+	padding-left: 50px;
+	margin-top: 20px;
+	border: 1px solid #999;
+	border-bottom: none;
+	overflow: hidden;
+}
+#good-warpper .good-inner .sum .detail .detail-top h1{
+	margin-left: 362px;
+}
+#good-warpper .good-inner .sum .detail .detail-top ul{
+	float: left;
+	margin-top: 36px;
+	margin-right: 138px;
+	overflow: hidden;
+}
+#good-warpper .good-inner .sum .detail .detail-top ul li{
+	margin-bottom: 10px;
+	color:#666;
+	font-size:13px;
+}
+#good-warpper .good-inner .sum .detail .detail-top .introduce{
+	width:900px;
+	overflow: hidden;
+}
+#good-warpper .good-inner .sum .detail .detail-top .introduce h1{
+	display: inline-block;
+	margin-top: 43px;
+	float: left;
+	width:153px;
+	height:153px;
+	background:#00a0e9;
+	font-size:57px;
+	text-align: center;
+	color: #fff;
+	line-height: 73px;
+	margin-left: 0px;
+	border-radius: 2px;
+}
+#good-warpper .good-inner .sum .detail .detail-top .introduce .introduce-top{
+	float: left;
+	margin-top: 43px;
+	width:747px;
+	height:150px;
+	border-bottom: 3px solid #00a0e9;
+}
+#good-warpper .good-inner .sum .detail .detail-top .introduce .introduce-top span{
+	font-size:12px;
+	color:#000;
+	margin-top: 30px;
+	float: left;
+	margin-left: 29px;
+}
+#good-warpper .good-inner .sum .detail .detail-top .introduce .introduce-top .style{
+	float: right;
+	margin-right:140px;
+}
+#good-warpper .good-inner .sum .detail .detail-top .introduce .introduce-top p{
+	float:left;
+	margin-left: 29px;
+	margin-top:43px;
+	line-height: 30px;
+}
+#good-warpper .good-inner .sum .detail .detail-top .must{
+	width:900px;
+	overflow: hidden;
+}
+#good-warpper .good-inner .sum .detail .detail-top .must h1{
+	display: inline-block;
+	margin-top: 30px;
+	float: left;
+	width:153px;
+	height:153px;
+	background:#00a0e9;
+	font-size:57px;
+	text-align: center;
+	color: #fff;
+	line-height: 73px;
+	margin-left: 0px;
+	border-radius: 2px;
+}
+#good-warpper .good-inner .sum .detail .detail-top .must p{
+	margin-left: 29px;
+	float: left
+}
+#good-warpper .good-inner .sum .detail .detail-top .must .must-top{
+	float: left;
+	margin-top: 30px;
+	width:747px;
+	height:150px;
+	border-bottom: 3px solid #00a0e9;
+}

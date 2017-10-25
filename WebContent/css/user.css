@@ -1,0 +1,164 @@
+#crumbs-warpper{
+	width:100%;
+	height:34px;
+	margin: 0 auto;
+}
+#crumbs-warpper .crumbs-inner{
+	width:1200px;
+	height:34px;
+	margin: 0 auto;
+	line-height: 34px;
+	font-size:14px;
+	color: #000;
+}
+#crumbs-warpper .crumbs-inner a{
+	color: #000;
+}
+#user-warpper{
+	width:100%;
+	margin: 0 auto;
+}
+#user-warpper .user-inner{
+	width:1200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#user-warpper .user-inner .user-nav{
+	float: left;
+	width:170px;
+	border: 1px solid #999;
+	padding: 14px;
+}
+#user-warpper .user-inner .user-nav h1{
+	font-size:16px;
+	color: #666;
+	border-bottom: 1px solid #999;
+	line-height: 25px;
+}
+#user-warpper .user-inner .user-nav ul{
+	margin-top: 11px;
+}
+#user-warpper .user-inner .user-nav ul li{
+	margin-bottom:24px;
+	color: #333;
+	font-size:12px;
+}
+#user-warpper .user-inner .user-nav ul a{
+	color: #000;
+}
+#user-warpper .user-inner  .user-right{
+	float: left;
+	margin-left: 19px;
+}
+#user-warpper .user-inner  .user-right .welcome{
+	padding: 13px 0px 0px 31px;
+	height:155px;
+	width:947px;
+	border:1px solid #999;
+}
+#user-warpper .user-inner  .user-right .welcome img{
+	float:left;
+	width:140px;
+	height:140px;
+	display: block;
+	border:1px solid #999;
+	}
+#user-warpper .user-inner  .user-right .welcome .welcome-right{
+		float: left;
+		margin-left: 30px;
+}
+#user-warpper .user-inner  .user-right .welcome .welcome-right p{
+		font-size:15px;
+		color:#666;
+		margin-bottom: 21px;
+}
+#user-warpper .user-inner  .user-right .welcome .welcome-right a{
+	color: #000;
+	font-size: 17px;
+	margin-right: 27px;
+}
+#user-warpper .user-inner  .user-right .welcome .welcome-right a:hover{
+	color: #bc9a5b;
+}
+#user-warpper .user-inner  .user-right .welcome .welcome-right a span{
+	color: red;
+}
+#user-warpper .user-inner  .user-right  .al{
+	padding-left: 30px;
+	margin-top: 20px;
+	font-size:15px;
+	color:#000;
+	height:34px;
+	line-height: 34px;
+	background: #eee;
+	border: 1px solid #999;
+	display: block;}
+#user-warpper .user-inner  .cart-form{
+	height:81px;
+	width:978px;
+	border:1px solid #999;
+	border-top:none
+}
+#user-warpper .user-inner  .cart-form .checks{
+	float: left;
+	margin-left: 30px;
+}
+#user-warpper .user-inner  .cart-form .checks input{
+	width:18px;
+	height:18px;
+	border:1px solid #999;
+	outline: none;
+	background:none;
+	margin-top: 35px;
+}
+#user-warpper .user-inner  .cart-form  .msg{
+	float: left;
+	margin-left: 20px;
+	width:289px;
+	height:81px;
+}
+#user-warpper .user-inner  .cart-form  .msg img{
+	float: left;
+	margin-top: 10px;
+}
+#user-warpper .user-inner  .cart-form  .msg .msg-right{
+	float: left;
+	height:57px;
+	width:215px;
+	margin-left: 14px;
+}
+#user-warpper .user-inner  .cart-form  .msg .msg-right p{
+	font-size:12px;
+	color:#000;
+	line-height:18px;
+	margin-top: 17px;
+}
+#user-warpper .user-inner  .cart-form  .msg .msg-right span{
+	float: left;
+	font-size:12px;
+	color:#666;
+	margin-right: 25px;
+	margin-top: 7px;
+}
+#user-warpper .user-inner  .cart-form .price{
+	float: left;
+	margin-left: 71px;
+	font-size:18px;
+	color:red;
+	margin-top: 35px;
+}
+#user-warpper .user-inner  .cart-form .totalprice{
+	float: left;
+	margin-left: 125px;
+	font-size:15px;
+	margin-top: 35px;
+}
+#user-warpper .user-inner  .cart-form .delete{
+	float: left;
+	margin-left: 100px;
+	margin-top: 35px;
+}
+#user-warpper .user-inner  .cart-form #del{
+	color:#666;
+	font-size:15px;
+}

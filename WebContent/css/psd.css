@@ -1,0 +1,27 @@
+.modifypsd{
+	float: left;
+	margin-left: 18px;
+	width:978px;
+	border:1px solid #999;
+	height:200px;
+	text-align: center;
+	line-height: 130px;
+}
+.modifypsd label{
+	margin-right: 30px;
+}
+.modifypsd .txt{
+	width:350px;
+	height: 30px;
+} 
+.modifypsd a{
+	border-radius: 3px;
+	display: block;
+	width:148px;
+	height:37px;
+	background: #eb6100;
+	line-height: 37px;
+	margin: 0 auto;
+	cursor: pointer;
+	color: #fff;
+}

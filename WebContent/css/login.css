@@ -1,0 +1,164 @@
+#login-warpper{
+	min-width: 1200px;
+	height:505px;
+	margin: 0px auto;
+	border-bottom: 2px solid #8f7546;
+}
+#login-warpper .login-inner{
+	width: 1200px;
+	height:505px;
+	margin: 0px auto;
+}
+#login-warpper .login-inner .login-left{
+	margin-left: 112px;
+	width: 656px;
+	height:505px;
+	float: left;
+	background:url(../images/girl.jpg) no-repeat;
+}
+#login-warpper .login-inner .login-right{
+	width: 306px;
+	height:339px;
+	margin:49px;
+	border:1px solid #999;
+	float: left;
+}
+#login-warpper .login-inner .login-right .user{
+	line-height: 25px;
+	font-size:16px;
+	font-weight: 600;
+	height:25px;
+	padding:6px 20px 6px 20px;
+	background:#eee;
+}
+#login-warpper .login-inner .login-right .user i{
+	float: right;
+	display: block;
+	width:24px;
+	height:26px;
+	background:url(../images/log_06.jpg) no-repeat;
+}
+#login-warpper .login-inner .login-right form{
+	padding: 25px 20px 0px 20px;
+	width: 235px;
+}
+#login-warpper .login-inner .login-right .item{
+	width:275px;
+	height:27px;
+	line-height: 27px;
+	font-size:15px;
+	margin-bottom: 15px;
+	color: #666;
+}
+#login-warpper .login-inner .login-right .item #dlm{
+	padding-left: 10px;
+	margin-left: 9px;
+	outline: none;
+	width:198px;
+	border:1px solid #999;
+	height:25px;
+}
+#login-warpper .login-inner .login-right .item #mm{
+	padding-left: 10px;
+	margin-left:25px;
+	outline: none;
+	width:198px;
+	border:1px solid #999;
+	height:25px;
+}
+#login-warpper .login-inner .login-right .item #yzm{
+	padding-left: 10px;
+	margin-left: 9px;
+	width:64px;
+	height:25px;
+	border:1px solid #999;
+	outline: none;
+}
+#login-warpper .login-inner .login-right .item #btn{
+	width:66px;
+	height:29px;
+	border:none;
+	outline:none;
+	background: #c5b985;
+	font-size:16px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+#login-warpper .login-inner .login-right .item #change{
+	display: inline-block;
+	width:50px;
+	font-weight: 600;
+	line-height: 14px;
+	float: right;
+	font-size:12px;
+	color: #000;
+}
+#login-warpper .login-inner .login-right #button{
+	width:275px;
+	height:31px;
+	background:#fe0000;
+	border:none;
+	outline: none;
+	border-radius: 3px;
+	color:#fff;
+	cursor: pointer;
+}
+#login-warpper .login-inner .login-right .font{
+	height:49px;
+	width:275px;
+	border-bottom:1px solid #999;
+}
+#login-warpper .login-inner .login-right #toast{
+	float: left;
+	line-height: 49px;
+}
+#login-warpper .login-inner .login-right .font .free{
+	color:#666;
+	line-height: 49px;
+	float: right;
+}
+#login-warpper .login-inner .login-right .three{
+	width:275px;
+	padding-top:9px ;
+	font-size:12px;
+	color:#000000;
+	font-weight: 600;
+}
+#login-warpper .login-inner .login-right .three ul{
+	margin-top: 7px;
+}
+#login-warpper .login-inner .login-right .three ul li{
+	float: left;
+	margin-right: 12px;	
+}
+#login-warpper .login-inner .login-right .three ul li a{
+	color: #666;
+	line-height: 28px;
+}
+#login-warpper .login-inner .login-right .three ul li .qq{
+	display: block;
+	width:28px;
+	height:28px;
+	float: left;
+	background:url(../images/log_10.jpg) no-repeat;	
+	margin-right: 5px;
+}
+#login-warpper .login-inner .login-right .three ul .nor{
+	margin-right: 0px;
+}
+#login-warpper .login-inner .login-right .three ul li .vx{
+	display: block;
+	width:28px;
+	height:28px;
+	float: left;
+	background:url(../images/log_12.jpg) no-repeat;	
+	margin-right: 5px;
+}
+#login-warpper .login-inner .login-right .three ul li .zfb{
+	display: block;
+	width:28px;
+	height:28px;
+	float: left;
+	background:url(../images/log_14.jpg) no-repeat;	
+	margin-right: 5px;
+}

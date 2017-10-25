@@ -1,0 +1,187 @@
+#toast-warpper{
+	width:100%;
+	margin: 0px auto;
+}
+#toast-warpper .toast-inner{
+	width:1160px;
+	height:101px;
+	margin: 0px auto;
+	padding: 25px 0px 0px 40px;
+	background: #eeeeee;
+	border:1px solid #999;
+}
+#toast-warpper .toast-inner img{
+	float: left;
+	margin-right: 30px;
+}
+#toast-warpper .toast-inner .tip{
+	float: left;
+	
+}
+#toast-warpper .toast-inner .tip p{
+	font-size:16px;
+	color:red;
+	margin-bottom: 12px;
+	
+}
+#toast-warpper .toast-inner .tip span{
+	font-size:14px;
+	color:#666;
+}
+#toast-warpper .toast-inner .tip span i{
+	font-size:16px;
+	color:red;
+	font-style: normal;
+}
+#pay-warpper{
+	width:100%;
+	margin:0px auto;
+}
+#pay-warpper .pay-inner{
+	padding: 28px 28px 0px 28px;
+	width:1144px;
+	margin:60px auto;
+	overflow: hidden;
+	border:1px solid #999;
+}
+#pay-warpper .pay-inner fieldset{
+	border:1px solid #bc9a5b;
+}
+#pay-warpper .pay-inner fieldset legend{
+	color:#bc9a5b;
+} 
+#pay-warpper .pay-inner fieldset h1{
+	font-size:16px;
+	color:#000;
+	font-weight: 100;
+	border-bottom: 1px solid #999;
+}
+#pay-warpper .pay-inner fieldset ul{
+	margin-top: 20px;
+	margin-left: 19px;
+}
+#pay-warpper .pay-inner fieldset ul .nor{
+	margin-right: 0px;
+}
+#pay-warpper .pay-inner fieldset ul li{
+	float: left;
+	width:242px;
+	height:60px;
+	border:1px solid #999;
+	margin-right: 38px;
+	margin-bottom: 30px;
+	line-height: 60px;
+}
+#pay-warpper .pay-inner fieldset ul li input{
+	width:14px;
+	height:14px;
+	float: left;
+	margin-left: 7px;
+	margin-top:22px;
+	margin-right: 8px;
+}
+#pay-warpper .pay-inner fieldset ul li img{
+	float: left;
+}
+#pay-warpper .pay-inner fieldset .list li{
+	float: left;
+	width:242px;
+	height:81px;
+	border:1px solid #999;
+	margin-right: 38px;
+	margin-bottom: 30px;
+	line-height: 81px;
+}
+#pay-warpper .pay-inner fieldset .list li input{
+	width:14px;
+	height:14px;
+	float: left;
+	margin-left: 7px;
+	margin-top:34px;
+	margin-right: 8px;
+}
+#pay-warpper .pay-inner form {
+	margin-bottom: 20px;
+}
+#pay-warpper .pay-inner form p{
+	margin-left: 2px;
+	border:1px solid #bc9a5b;
+	border-top:none;
+	width:1138px;
+}
+#pay-warpper .pay-inner form p input{
+	width:14px;
+	height:14px;
+	margin-left:19px;
+	margin-right: 10px;
+}
+#pay-warpper .pay-inner form p span{
+	float: right;
+	margin-top: 22px;
+	margin-right: 43px;
+	color: red;
+}
+#pay-warpper .pay-inner .o{
+	margin-left: 20px;
+	margin-top: -5px;
+}
+#pay-warpper .pay-inner .paypsd{
+	overflow: hidden;
+	margin-top: 45px;
+	margin-left: 24px;
+}
+#pay-warpper .pay-inner .paypsd p{
+	font-size:16px;
+	color: #000;
+}
+#pay-warpper .pay-inner .paypsd ul{
+	float: left;
+	margin-top: 10px;
+	width:246px;
+	height:38px;
+	border: 1px solid #999;
+}
+#pay-warpper .pay-inner .paypsd ul li{
+	float: left;
+	border-right: 1px solid #999;
+	width:40px;
+	height:30px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#pay-warpper .pay-inner .paypsd ul .nor{
+	border-right: none;
+}
+#pay-warpper .pay-inner .paypsd ul li input{
+	text-align: center;
+	width:40px;
+	height:30px;
+	border:none;
+}
+#pay-warpper .pay-inner .paypsd a{
+	float: left;
+	font-size: 12px;
+	color:#666;
+	margin-top: 25px;
+	margin-left: 15px;
+}
+#pay-warpper .pay-inner .six{
+	font-size: 12px;
+	color:#666;
+	margin-left: 24px;
+	margin-top: 5px;
+}
+#pay-warpper .pay-inner .confirm{
+	margin-top: 20px;
+	margin-left: 24px;
+	margin-bottom: 20px;
+	display: block;
+	width:114px;
+	height:33px;
+	line-height: 33px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 1px;
+	background: #eb6100;
+	color: #fff;
+}

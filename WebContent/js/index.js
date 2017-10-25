@@ -1,0 +1,32 @@
+onload=function(){
+	oImg=document.getElementById("img");
+	oImg1=document.getElementById("img1-inner");
+	oImg10=document.getElementById("img10");
+	oImg6=document.getElementById("img6-inner");
+	oImg15=document.getElementById("img15");
+	oImg11=document.getElementById("img11-inner");
+	oImg.onmouseenter=function(){
+		oImg.style.display="none";
+		oImg1.style.display="block";
+	}
+	oImg10.onmouseenter=function(){
+		oImg10.style.display="none";
+		oImg6.style.display="block";
+	}
+	oImg15.onmouseenter=function(){
+		oImg15.style.display="none";
+		oImg11.style.display="block";
+	}
+	oImg1.onmouseleave=function(){
+		oImg.style.display="block";
+		oImg1.style.display="none";
+	}
+	oImg6.onmouseleave=function(){
+		oImg10.style.display="block";
+		oImg6.style.display="none";
+	}
+	oImg11.onmouseleave=function(){
+		oImg15.style.display="block";
+		oImg11.style.display="none";
+	}
+}

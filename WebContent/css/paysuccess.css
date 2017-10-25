@@ -1,0 +1,80 @@
+#success-warpper{
+	width:100%;
+	margin: 30px auto;
+}
+#success-warpper .success-inner{
+	width: 1200px;
+	height:271px;
+	margin: 0px auto;
+	border:1px solid #999;
+}
+#success-warpper .success-inner .success-left img{
+	width:191px;
+	height:191px;
+	float: left;
+}
+#success-warpper .success-inner .success-left{
+	height:191px;
+	float: left;
+	margin: 40px 105px 0 48px;
+}
+#success-warpper .success-inner .success-left .tell{
+	float: left;
+	margin-top: 38px;
+	margin-left: 57px;
+}
+#success-warpper .success-inner .success-left .tell p{
+	font-size:22px;
+	color:#000;
+	margin-bottom: 10px;
+}
+#success-warpper .success-inner .success-left .tell span{
+	font-size:12px;
+	color:#666;
+}
+#success-warpper .success-inner .success-left .tell a{
+	float: left;
+	margin-top: 40px;
+	display: block;
+	margin-right: 10px;
+	width:102px;
+	height:28px;
+	line-height: 28px;
+	text-align: center;
+	background:#eee;
+	color:#eb6d23;
+	border:1px solid #999
+}
+#success-warpper .success-inner .success-right{
+	float: left;
+	height:240px;
+	border-left:1px solid #a5a5a5;
+	margin-top: 16px;
+}
+#success-warpper .success-inner .success-right img{
+	margin-left: 92px;
+	margin-top: 57px;
+}
+#success-warpper .success-inner .success-right p{
+	margin-left: 92px;
+	margin-top: 5px;
+	font-size:17px;
+	color:#666;
+}
+#success-warpper .success-inner .success-right span{
+	margin-left: 92px;
+	color:#666;
+	font-size:14px
+}
+#back{
+	display: block;
+	width:166px;
+	height:46px;
+	background:#eb6100;
+	color: #fff;
+	border-radius: 4px;
+	line-height: 46px;
+	text-align: center;
+	font-size:22px;
+	margin: 0px auto;
+}
