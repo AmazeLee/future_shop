@@ -60,7 +60,7 @@
 			</h1>
 			<c:forEach items="${hotProductList }" var="hotPro">
 				<div class="burst">
-					<a href="#"><img src="${hotPro.pimage }"></a>
+					<a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=${hotPro.pid}"><img src="${hotPro.pimage }"></a>
 					<p>${hotPro.pname }</p>
 					<span>￥:${hotPro.shop_price }</span>
 				</div>
@@ -82,7 +82,7 @@
 			</div>
 			<div class="occident-center">
 				<div class="occident-left">
-					<a href="#"><div id="img1">
+					<a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img1">
 							<div id="img1-inner">
 								<span>￥:269</span>
 								<p>
@@ -92,21 +92,21 @@
 							<div id="img">
 								<p>风景钟</p>
 							</div>
-						</div></a> <a href="#"><div id="img2">
+						</div></a> <a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img2">
 							<div id="img2-inner"></div>
-						</div> <a href="#"><div id="img3">
+						</div> <a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img3">
 								<div id="img3-inner"></div>
 							</div>
 				</div>
 
 				<div class="occident-right">
-					<a href="#"><div id="img4"></div></a>
+					<a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img4"></div></a>
 				</div>
 
 			</div>
 
 			<div class="occident-bottom">
-				<a href="#" title="中国风"><img src="images/img_32.jpg"></a>
+				<a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1" title="中国风"><img src="images/img_32.jpg"></a>
 			</div>
 		</div>
 	</div>
@@ -120,11 +120,11 @@
 			</div>
 			<div class="chinese-center">
 				<div class="chinese-left">
-					<a href="#"><div id="img5"></div></a>
+					<a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img5"></div></a>
 				</div>
 
 				<div class="chinese-right">
-					<a href="#"><div id="img6">
+					<a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img6">
 							<div id="img6-inner">
 								<span>￥:269</span>
 								<p>
@@ -134,9 +134,9 @@
 							<div id="img10">
 								<p>风景钟</p>
 							</div>
-						</div></a> <a href="#"><div id="img7">
+						</div></a> <a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img7">
 							<div id="img7-inner"></div>
-						</div></a> <a href="#"><div id="img8">
+						</div></a> <a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img8">
 							<div id="img8-inner"></div>
 						</div></a>
 				</div>
@@ -158,11 +158,11 @@
 			</div>
 			<div class="sea-center">
 				<div class="sea-left">
-					<a href="#"><div id="img12">
+					<a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img12">
 							<div id="img12-inner"></div>
-						</div></a> <a href="#"><div id="img13">
+						</div></a> <a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img13">
 							<div id="img13-inner"></div>
-						</div></a> <a href="#"><div id="img11">
+						</div></a> <a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img11">
 							<div id="img11-inner">
 								<span>￥:269</span>
 								<p>
@@ -176,7 +176,7 @@
 				</div>
 
 				<div class="sea-right">
-					<a href="#"><div id="img14"></div></a>
+					<a href="${pageContext.request.contextPath}/ProductServlet?method=productDetail&pid=1"><div id="img14"></div></a>
 				</div>
 
 			</div>

@@ -10,8 +10,6 @@ import org.apache.commons.dbutils.handlers.ScalarHandler;
 
 import com.sh.domain.Product;
 import com.sh.utils.DataSourceUtils;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.sun.org.apache.bcel.internal.generic.Select;
 
 public class ProductDao {
 

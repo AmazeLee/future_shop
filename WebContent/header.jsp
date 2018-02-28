@@ -104,7 +104,7 @@
 	<script type="text/javascript">
 		//header.jsp加载完毕后，去服务器端获得所有的category数据
 		$(function(){
-			var content="<li><a href='index.jsp'>首页</a></li>";
+			var content="<li><a href='${pageContext.request.contextPath}/IndexServlet'>首页</a></li>";
 			$.post(
 				"${pageContext.request.contextPath}/CategoryServlet?method=getCategoryList",
 				function(data){

@@ -12,7 +12,6 @@ import com.sh.domain.Address;
 import com.sh.domain.Product;
 import com.sh.domain.User;
 import com.sh.utils.DataSourceUtils;
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 public class UserDao {
 	

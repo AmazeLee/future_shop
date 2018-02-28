@@ -1,19 +1,16 @@
 package com.sh.web.servlet;
 
-import java.io.IOException;
-import java.util.Map;
-
-import javax.mail.Session;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-
 import com.sh.domain.Cart;
 import com.sh.domain.CartItem;
 import com.sh.domain.Product;
 import com.sh.service.ProductService;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+import java.io.IOException;
+import java.util.Map;
 
 public class CartServlet extends BaseServlet {
 

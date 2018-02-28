@@ -16,7 +16,6 @@ import com.sh.domain.Order;
 import com.sh.domain.OrderItem;
 import com.sh.domain.Product;
 import com.sh.utils.DataSourceUtils;
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 public class OrderDao {
 	

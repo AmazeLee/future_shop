@@ -112,7 +112,7 @@
 						</div>
 					</div>
 					<div class="just-buy">
-						<a herf="#" class="just">立即购买</a> 
+						<a herf="javascript:void(0);" onclick="addCart()" class="addcart">立即购买</a> 
 						<a herf="javascript:void(0);" onclick="addCart()" class="addcart"><i></i>加入购物车</a>
 					</div>
 				</form>
